@@ -10,7 +10,7 @@ const Navbar = () => {
         <NavLink to="/" exact="true">
           <button className="text-white mt-6 ml-8">Home</button>
         </NavLink>
-        <NavLink to="/login" exact="true">
+        <NavLink to="/signin" exact="true">
           <button className="bg-white w-24 h-10 rounded-lg mt-6 ml-8">
             Login
           </button>
