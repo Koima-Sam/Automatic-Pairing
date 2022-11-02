@@ -60,7 +60,7 @@ function App() {
       if (r.ok) {
         setCurrentUser(null);
         setIsMentor(null)
-        navigate('/login')
+        navigate('/signin')
       }
     });
   }
@@ -73,7 +73,7 @@ function App() {
         <Route element={<Students students={students} />} exact path='/studentsList'/>
         <Route
           exact
-          path="/login"
+          path="/signin"
           element={<Login setCurrentUser={setCurrentUser}  setIsMentor={setIsMentor}/>}
         />
         <Route
