@@ -48,10 +48,13 @@ export default function Login({ setCurrentUser, setIsMentor }) {
           setCurrentUser(data);
           if (formData.user.role === "student") {
             navigate("/myprofile");
+            alert('Logged in successfully')
             setIsMentor(false);
           } else {
             setIsMentor(true);
             navigate("/dashboard");
+            alert('Logged in successfully')
+
           }
         });
       } else {

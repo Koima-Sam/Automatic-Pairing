@@ -61,6 +61,8 @@ function App() {
         setCurrentUser(null);
         setIsMentor(null)
         navigate('/signin')
+        alert('Logged out successfully')
+
       }
     });
   }
