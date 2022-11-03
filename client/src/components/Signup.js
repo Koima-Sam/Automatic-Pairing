@@ -145,7 +145,7 @@ export default function Signup({ setCurrentUser, setIsMentor }) {
               <p>Already have an account?</p>
               <button
                 type="button"
-                onClick={() => navigate("/login")}
+                onClick={() => navigate("/singin")}
                 className="inline-block px-6 py-2.5 bg-white text-[#1D6697] border-2 border-[#1D6697] font-medium text-xs leading-tight  rounded shadow-md hover:bg-[#1D6697] hover:text-white focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
               >
                 Login
